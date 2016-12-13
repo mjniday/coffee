@@ -1,0 +1,43 @@
+html {
+  background-color: #F7F4EA;
+  color: #423629;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+  color: #61dafb;
+}
+
+.App-header {
+  background-color: #645244;
+  height: 150px;
+  padding: 20px;
+  color: #F7F4EA;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.brew-methods-container {
+  width: 90%;
+  margin: auto;
+}
+
+.brew-method {
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid #423629;
+  display: inline-block;
+  margin: 0 1rem
+}
