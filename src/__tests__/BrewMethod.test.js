@@ -7,7 +7,7 @@ describe("the brew method component", () => {
   const renderer = ReactTestUtils.createRenderer();
   renderer.render(<BrewMethod url="/example.com" brew_method_name="foo" description="bar"/>);
   const result = renderer.getRenderOutput();
-
+  
   it('is a Link element', () => {
     expect(result.type.displayName).toBe('Link');
   });
@@ -16,7 +16,7 @@ describe("the brew method component", () => {
     expect(result.props.className).toBe('Brew-method');
   });
 
-  it('has a header paragraph children', () => {
+  it('has a header and paragraph children', () => {
     expect(result.props.children).toEqual([
       <h3>foo</h3>,
       <p>bar</p>
