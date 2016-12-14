@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class AppFooter extends Component {
   render() {
     return (
-      <footer>
+      <footer className="App-footer">
         Made with ☕
       </footer>
     );

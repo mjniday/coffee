@@ -1,6 +1,12 @@
 html {
+  min-height: 100%;
   background-color: #F7F4EA;
   color: #423629;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
 }
 
 .App {
@@ -8,7 +14,6 @@ html {
 }
 
 .App-logo {
-  /*animation: App-logo-spin infinite 20s linear;*/
   height: 80px;
   color: #61dafb;
 }
@@ -24,20 +29,23 @@ html {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.brew-methods-container {
+.Brew-methods-container {
   width: 90%;
   margin: auto;
+  padding-bottom: 3rem;
 }
 
-.brew-method {
+.Brew-method {
   width: 15rem;
   height: 15rem;
   border: 1px solid #423629;
   display: inline-block;
-  margin: 0 1rem
+  margin: 1rem;
+}
+
+.App-footer {
+  padding: 1rem;
+  background-color: #645244;
+  color: #F7F4EA;
+  text-align: center;
 }

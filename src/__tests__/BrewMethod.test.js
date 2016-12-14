@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactTestUtils from 'react-addons-test-utils';
-import BrewMethod from './BrewMethod';
+import BrewMethod from '../BrewMethod';
 
 describe("the brew method component", () => {
   const renderer = ReactTestUtils.createRenderer();
   renderer.render(<BrewMethod url="/example.com" brew_method_name="foo" description="bar"/>);
   const result = renderer.getRenderOutput();
 
-  it('is an anchor element', () => {
-    expect(result.type).toBe('a');
+  it('is a Link element', () => {
+    expect(result.type.displayName).toBe('Link');
   });
 
-  it('has the `brew-method` class', () => {
-    expect(result.props.className).toBe('brew-method');
+  it('has the `Brew-method` class', () => {
+    expect(result.props.className).toBe('Brew-method');
   });
 
   it('has a header paragraph children', () => {
