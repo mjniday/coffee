@@ -43,6 +43,23 @@ body {
   margin: 1rem;
 }
 
+.App-detail-header {
+  height: 4rem;
+  background-color: #645244;
+}
+
+.App-detail-header > .logo {
+  height: 3rem;
+  width: 3rem;
+  float: left;
+  padding: 0.5rem 1rem;
+}
+
+.App-detail-header img {
+  height: 100%;
+  width: 100%;
+}
+
 .App-footer {
   padding: 1rem;
   background-color: #645244;
