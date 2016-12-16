@@ -29,13 +29,13 @@ body {
   font-size: large;
 }
 
-.Brew-methods-container {
+.BrewMethodsContainer {
   width: 90%;
   margin: auto;
   padding-bottom: 3rem;
 }
 
-.Brew-method {
+.BrewMethod {
   width: 15rem;
   height: 15rem;
   border: 1px solid #423629;
@@ -43,24 +43,24 @@ body {
   margin: 1rem;
 }
 
-.App-detail-header {
+.AppDetailHeader {
   height: 4rem;
   background-color: #645244;
 }
 
-.App-detail-header > .logo {
+.AppDetailHeader > .logo {
   height: 3rem;
   width: 3rem;
   float: left;
   padding: 0.5rem 1rem;
 }
 
-.App-detail-header img {
+.AppDetailHeader img {
   height: 100%;
   width: 100%;
 }
 
-.App-footer {
+.AppFooter {
   padding: 1rem;
   background-color: #645244;
   color: #F7F4EA;

@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 class AppDetailHeader extends Component {
   render() {
     return (
-      <nav className="App-detail-header">
+      <nav className="AppDetailHeader">
         <div className="logo">
           <Link to="/">
             <img src={beans} role="presentation" />

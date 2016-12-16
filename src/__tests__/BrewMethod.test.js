@@ -13,7 +13,7 @@ describe("the brew method component", () => {
   });
 
   it('has the `Brew-method` class', () => {
-    expect(result.props.className).toBe('Brew-method');
+    expect(result.props.className).toBe('BrewMethod');
   });
 
   it('has a header and paragraph children', () => {
