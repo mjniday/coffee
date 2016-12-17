@@ -17,9 +17,9 @@ class BrewTimer extends Component {
     var total = this.state.totalTime;
 
     var ms = total % 1000;
-    var ss = Math.floor(total / 1000);
-    var mm = Math.floor(ss / 60);
-    ss = ss % 60;
+    var secs = Math.floor(total / 1000);
+    var mm = Math.floor(secs / 60);
+    var ss = secs % 60;
 
     this.setState({
       ms: ms,
@@ -46,9 +46,9 @@ class BrewTimer extends Component {
           ss={this.state.ss}
           mm={this.state.mm}
         />
-        <div className="buttons">
-          <button onClick={this.startTimer.bind(this)}>Start</button>
-          <button onClick={this.resetTimer.bind(this)}>Stop</button>
+        <div>
+          <button className="button ma1 shadow shrink" onClick={this.startTimer.bind(this)}>Start</button>
+          <button className="button ma1 shadow shrink" onClick={this.resetTimer.bind(this)}>Stop</button>
         </div>
       </div>
     );

@@ -7,10 +7,10 @@ class BrewClock extends Component {
   }
   render() {
     return (
-      <div>
-        {this.transformTime(this.props.mm)}:
-        {this.transformTime(this.props.ss)}:
-        {this.props.ms / 100}
+      <div className="BrewClock">
+        <div className="f1 dib">{this.transformTime(this.props.mm)}:</div>
+        <div className="f1 dib">{this.transformTime(this.props.ss)}</div>
+        <div className="f4 dib">{this.props.ms / 100}</div>
       </div>
     );
   }

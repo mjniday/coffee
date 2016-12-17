@@ -11,9 +11,6 @@ class AppHome extends Component {
             <img src={beans} className="App-logo" alt="logo" />
             <h2>Let's Get Brewin'</h2>
           </div>
-          <p className="App-intro">
-            To get started, select your preferred brew method.
-          </p>
           <BrewMethodsContainer />
           <AppFooter />
       </div>
