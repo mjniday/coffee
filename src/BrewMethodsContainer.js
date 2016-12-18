@@ -8,7 +8,7 @@ class BrewMethodsContainer extends Component {
         <p className="App-intro">
           To get started, select your preferred brew method.
         </p>
-        <BrewMethod href="/method/pour-over" brew_method_name="Pour Over" description="lorem ipsum something"/>
+        <BrewMethod href="/method/chemex" brew_method_name="Chemex" description="lorem ipsum something"/>
         <BrewMethod href="/method/french-press" brew_method_name="French Press" description="lorem ipsum something"/>
         <BrewMethod href="/method/pour-over" brew_method_name="Pour Over" description="lorem ipsum something"/>
         <BrewMethod href="/method/french-press" brew_method_name="French Press" description="lorem ipsum something"/>

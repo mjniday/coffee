@@ -1,0 +1,43 @@
+{"aeropress": {
+    "name": "Aeropress",
+    "calculations": {
+      "defaultCoffeeWeight": 17,
+      "defaultWaterWeight": 272,
+      "brewRatio": 16
+    },
+    "grindSize": "medium fine",
+    "description": "blah blah blah blah"
+  },
+  "chemex": {
+    "name": "Chemex",
+    "calculations": {
+      "defaultCoffeeWeight": 42,
+      "defaultWaterWeight": 714,
+      "brewRatio": 17
+    },
+    "grindSize": "medium coarse",
+    "description": "lorem ipsum"
+  },
+  "french-press": {
+    "name": "French Press",
+    "calculations": {
+      "defaultCoffeeWeight": 60,
+      "defaultWaterWeight": 900,
+      "brewRatio": 15
+    },
+    "grindSize": "coarse",
+    "description": 
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna risus, tempus in dignissim non, molestie sed nisl. Pellentesque risus magna, rhoncus et pharetra nec, eleifend sed quam. Pellentesque vitae augue tortor. Praesent interdum felis eget consequat lobortis. Donec diam ipsum, sollicitudin a faucibus eget, posuere id ex. Suspendisse ornare arcu id ultricies egestas. In non scelerisque eros. Donec in vestibulum ipsum."
+  },
+  "v60": {
+    "name": "v60",
+    "calculations": {
+      "defaultCoffeeWeight": 28,
+      "defaultWaterWeight": 448,
+      "brewRatio": 16
+    },
+    "grindSize": "medium fine",
+    "description": 
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna risus, tempus in dignissim non, molestie sed nisl. Pellentesque risus magna, rhoncus et pharetra nec, eleifend sed quam. Pellentesque vitae augue tortor. Praesent interdum felis eget consequat lobortis. Donec diam ipsum, sollicitudin a faucibus eget, posuere id ex. Suspendisse ornare arcu id ultricies egestas. In non scelerisque eros. Donec in vestibulum ipsum."
+  }
+}

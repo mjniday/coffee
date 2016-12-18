@@ -4,9 +4,9 @@ class BrewCalculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      coffeeWeight: 42,
-      waterWeight: 714,
-      boxSizing: 'borderBox'
+      coffeeWeight: this.props.calculations.defaultCoffeeWeight,
+      waterWeight: this.props.calculations.defaultWaterWeight,
+      brewRatio: this.props.calculations.brewRatio
     };
 
     this.calculateCoffee = this.calculateCoffee.bind(this);
@@ -14,25 +14,25 @@ class BrewCalculator extends Component {
   }
   calculateCoffee(event) {
     this.setState({ 
-      coffeeWeight: Math.round(event.target.value / 17 * 100) / 100,
+      coffeeWeight: Math.round(event.target.value / this.state.brewRatio * 100) / 100,
       waterWeight: event.target.value
     })
   }
   calculateWater(event) {
     this.setState({ 
       coffeeWeight: event.target.value,
-      waterWeight: event.target.value * 17
+      waterWeight: event.target.value * this.state.brewRatio
     })
   }
   render() {
     return (
       <div>
         <div className="input-container w-100">
-          <input className="input f3 w-75" onChange={this.calculateWater} value={this.state.coffeeWeight} placeholder="grams"></input>
+          <input className="input f3 w-75" onChange={this.calculateWater} value={this.state.coffeeWeight}></input>
           <span className="dib w-25">g coffee</span>
         </div>
         <div className="input-container w-100">
-          <input className="input f3 w-75" onChange={this.calculateCoffee} value={this.state.waterWeight} placeholder="grams"></input>
+          <input className="input f3 w-75" onChange={this.calculateCoffee} value={this.state.waterWeight}></input>
           <span className="dib w-25">g water</span>
         </div>
       </div>

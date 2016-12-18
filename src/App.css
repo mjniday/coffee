@@ -25,7 +25,7 @@
 .button {
   display: inline-block;
   border: 2px solid #61dafb;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   background-color: transparent;
   padding: 1.5rem;
   font-size: 1.5rem;

@@ -4,7 +4,7 @@ class BrewMethodDescription extends Component {
   render() {
     return (
       <div>
-        I'm the description
+        {this.props.description}
       </div>
     );
   }
