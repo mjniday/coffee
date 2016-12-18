@@ -9,6 +9,17 @@
 .f5 { font-size: 1.5rem; }
 .f6 { font-size: 1rem; }
 
+.w1 { width: 1rem; }
+.w2 { width: 2rem; }
+.w3 { width: 3rem; }
+.w4 { width: 4rem; }
+.w-25 { width: 25%; }
+.w-30 { width: 30%; }
+.w-70 { width: 70%; }
+.w-75 { width: 75%; }
+.w-100 { width: 100%; }
+
+
 .dib { display: inline-block; }
 
 .button {
@@ -25,15 +36,10 @@
 
 .ma1 { margin: 0.25rem; }
 
-.shrink {
-  -moz-osx-font-smoothing: grayscale;
-  backface-visibility: hidden;
-  transform: translateZ(0);
-  transition: transform 0.25s ease-out;
-}
+.shrink {  }
 
 .shrink:active {
-  transform: scale(.90);
+  transform: scale(.95);
 }
 
 
@@ -107,4 +113,34 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/*
+  Other CSS
+*/
+
+.input-container {
+  height: 4rem;
+  margin: 0.5rem auto;
+  padding: 0.25rem;
+  box-sizing: border-box;
+}
+
+.input {
+  border: none;
+  float: left;
+  box-sizing: border-box;
+  height: 4rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+span {
+  float: left;
+  background-color: #645244;
+  color: #61dafb;
+  line-height: 4rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
