@@ -19,8 +19,9 @@
 .w-75 { width: 75%; }
 .w-100 { width: 100%; }
 
-
 .dib { display: inline-block; }
+
+.tl { text-align: left; }
 
 .button {
   display: inline-block;
@@ -82,9 +83,14 @@
 .BrewMethod {
   width: 15rem;
   height: 15rem;
+  line-height: 15rem;
   border: 1px solid #423629;
+  border-radius: 0.5rem;
   display: inline-block;
   margin: 1rem;
+  padding-left: 1rem;
+  color: #61dafb;
+  text-decoration: none;
 }
 
 .AppDetailHeader {
