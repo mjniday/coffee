@@ -4,7 +4,7 @@ class BrewMethodDescription extends Component {
   render() {
     return (
       <div>
-        {this.props.description}
+        <h3>Grind size: {this.props.grindSize} </h3>
       </div>
     );
   }

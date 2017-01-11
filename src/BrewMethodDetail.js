@@ -19,7 +19,7 @@ class BrewMethodDetail extends Component {
         <h1>{this.state.brewData['name']}</h1>
         <BrewTimer />
         <BrewCalculator calculations={this.state.brewData['calculations']} />
-        <BrewMethodDescription description={this.state.brewData['description']} />
+        <BrewMethodDescription grindSize={this.state.brewData['grindSize']} description={this.state.brewData['description']} />
       </div>
     );
   }
